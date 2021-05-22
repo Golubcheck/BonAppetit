@@ -1,0 +1,185 @@
+article
+{
+    position: relative;
+    background-color: rgba(224,227,255,0.85);
+    height: 370px;
+    width: 99%;
+   margin-left: auto;
+    margin-right: auto;  
+    margin-bottom: 27px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+}
+
+article a
+{
+    position: absolute;
+    top: 285px;
+    left:950px;
+    padding: 15px 60px 15px 60px;
+    background-color: #FFFAAD;
+    border-radius: 15px;
+    font-size: 14pt;
+    color: black;
+    font-weight: 600;
+    border: 1px solid;
+    border-color: lightsalmon;
+    box-shadow: 4px 1px 3px grey;
+    text-decoration: none;
+}
+
+h2
+{margin: 0;
+padding: 0;
+border: 0;
+}
+
+h3 /* для приготовления вам понадобится*/
+{
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 12px;
+}
+
+.mainname
+{
+    position: absolute;     
+    top: 21px;              
+    left:66px;
+} 
+
+.mainphoto
+{
+    height: 277px;
+    width: 414px;
+    border-radius: 6px;
+    margin-top: 70px;
+    margin-left: 28px;
+}
+
+/*Рейтинги*/
+.rating
+{
+    position: absolute;
+    top: 25px;
+    left: 940px;
+    background-color: #FBF5C2;
+    width: 351px;
+    height: 170px;
+    border-radius: 3px;
+}
+
+.rating div
+{
+    font-size: 14pt;
+}
+
+.rating span {
+	padding: 0;
+	font-size: 26px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating div span:before 
+{
+	content: '★';
+    text-shadow: 1px 1px #4F4F4F;
+}
+
+.rating div span.active 
+{
+	color: gold;
+	text-shadow: 1px 1px #4F4F4F;
+}
+
+.ratingMain {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+	width: 300px;
+}
+
+.ratingTime
+{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.ratingSkill
+{
+    position: absolute;
+    top: 85px;
+    left: 10px;
+}
+
+.ratingParts
+{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+
+.TimePersons
+{
+    position: absolute;
+    top: 180px;
+    left: 2px;
+    background-color: #FBF5C2;
+    height: 40px;
+    width: 330px;
+    box-shadow: 1px 0px 1px #676767;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 10px;
+} 
+
+
+.ingred
+{
+    position: absolute;
+    top: 25px;
+    left: 466px;
+    background-color: #FBF4C1;
+    border-radius: 4px;
+    height: 320px;
+    width: 450px;
+}
+
+.ingred li
+{
+    margin-bottom: 12px;
+    font-size: 14pt;
+    border-bottom: 1px dotted gray;
+}
+
+.ingreds1
+{
+    width: 250px;
+    float: left;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+.ingreds1 li
+{
+    width: 254px;
+}
+
+.ingreds1 li::marker 
+{
+  color: gray;
+  font-size: 12pt;
+}
+
+.ingreds2
+{
+    width: 137px;
+    margin-left: 255px;
+    margin-top: -5px;
+    list-style: none;
+}

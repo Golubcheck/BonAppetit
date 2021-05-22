@@ -1,0 +1,105 @@
+main
+{
+margin-top: 55px;    
+}
+
+h3 /* для приготовления вам понадобится*/
+{
+    font-weight: 600;
+    font-size: 18pt;
+}
+
+body
+{
+margin: 0;
+padding: 0;
+border: 0;
+  background-color: antiquewhite;
+background:url(Images/FonDoska.jpg);
+    background-size:  100%;
+    background-attachment:fixed;
+    
+}
+
+header
+{
+height: 48px;
+width: 100%;
+border-radius: 2px;
+background-color: #FFEFB8;
+position:fixed;
+opacity: 0.95;
+margin-top: -55px;
+z-index: 1;
+}
+
+nav ul 
+{
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 60%; 
+  min-width: 720px;
+}
+
+nav a 
+{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#E0E3FF;
+    padding: 10px 16px 10px 16px;
+    border-radius: 15px;
+    font-size: 14pt;
+    color: black;
+    font-weight: 600;
+    border: 1px solid;
+    border-color: cadetblue;
+    box-shadow: 4px 1px 3px grey;
+}
+
+nav li
+{
+    display: inline-block;
+/*    float: right;*/
+    margin-right: 3%;
+    margin-top: 13px;
+}
+
+/* в хедере */
+.logo 
+{
+    float: left;
+    height: 47px;
+    width: 18%;
+    min-width: 140px;
+    margin: 1px 0 0 0px;
+}
+
+.tag
+{
+    float: left;
+    height: 40px;
+    width: 135px;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.mainname
+{
+    background-color: #FFEDAE;
+    box-shadow: 1px 1px 5px grey;
+    height: 40px;
+    width: 340px;
+    border-radius: 15px;
+    text-align:center;
+    font-size: 22pt;    
+}
+
+
+footer
+{
+    background-color: darkgrey;
+    height: 15px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 10pt;
+}

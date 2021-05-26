@@ -6,6 +6,31 @@
         <link href="kolbaska.css" rel="stylesheet">
         <link href="mainHeadFootBack.css" rel="stylesheet">
         <link rel="shortcut icon" href="Images/minilogo.png" type="image/png">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+        
+<script type="text/javascript">
+$(function() 
+  {
+$(window).scroll(function() 
+{
+if($(this).scrollTop() > 150) 
+{ 
+$('#toTop').fadeIn();
+} 
+    else 
+
+{ 
+$('#toTop').fadeOut();
+}});
+ 
+$('#toTop').click(function() 
+{
+$('body,html').animate({scrollTop:0},820);
+});
+    });
+</script>
+        
         </head>
     <body>
         
@@ -22,7 +47,6 @@
         </header>
      
         <main> 
-            
         <article class="Belissimo">
                 <h2 class="mainname">Белиссимо</h2>
                 
@@ -212,7 +236,7 @@
                   <a href="https://www.google.by">Как готовить</a>
                  
             </article>
-            
+            <div ID = "toTop" > ^ Наверх </div >
          </main>
         
         <footer>Я не несу никакой ответственности за ваши потёкшие слюнки ! Но все права защищены 2021</footer>

@@ -5,7 +5,39 @@
     <meta charset="utf-8">
     <link href="mainHeadFootBack.css" rel="stylesheet">
     <link href="recepts.css" rel="stylesheet">
+    
     <link rel="shortcut icon" href="Images/minilogo.png" type="image/png">
+    
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+    
     </head>
 
     <body>
@@ -13,7 +45,7 @@
       <img class="logo" src="Images/logo2.jpg" alt="Ой, картинка не найдена.">
             <img class="tag" src="Images/TAG.png" alt="Ой, картинка не найдена.">
         <nav><ul>
-        <li> <a href="https://www.google.by">Супы</a> </li>
+        <li> <a href="https://golubcheck.github.io/BonAppetit/">Супы</a> </li>
         <li> <a href="">Салаты</a></li>
         <li> <a href="">Вторые блюда</a></li>
         <li> <a href="">Десерты</a></li>
@@ -76,6 +108,7 @@
             <img class="step4photo3" src="Images/rolltonstep4photo3.png"
              alt="ой">
             
+            <div ID = "toTop" > ^ Наверх </div >
         </main>
         
         
